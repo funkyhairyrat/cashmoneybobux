@@ -1,0 +1,54 @@
+.grid
+{   
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    height: 600px;
+}
+.row
+{   display: flex;
+    flex: 1;
+    width: 100%;
+}
+.square
+{   
+    flex: 1;
+    height: 100%;
+    outline: 1px solid black;
+    /* background-image: url(https://i.ytimg.com/vi/XFw7Ef_OpSE/maxresdefault.jpg);
+    background-size: contain; */
+    
+
+}
+.tile
+{
+    background-image:url(https://cdn.webshopapp.com/shops/66605/files/264373316/oracal-970-grass-green.jpg) ;
+}
+.mine
+{
+    background-image:url(https://imgsrv2.voi.id/Gf8iR5LpUeYgqMvWVihYstGVWYrwY5BzmKIq_-VutsI/auto/1200/675/sm/1/bG9jYWw6Ly8vcHVibGlzaGVycy8xYjNmOTI5ZC02ZTE2LTQwMDgtOGRhMS1iYzBmOWJlMzI0ZDkvMjAyMTA3MTYxNTI4LW1haW4uY3JvcHBlZF8xNjI2NDI0MTM2LmpwZWc.jpg);
+}
+a
+{
+ text-decoration: none;
+}
+.hidden
+{
+     display: none;
+}
+.modal
+{   
+    top: 40%;
+    left: 35%;
+    position: absolute;
+    height: 200px;
+    width: 500px;
+    background-color: white;
+    outline: 3px ridge black;
+
+}
+.lol
+{
+    color: blue;
+    text-decoration: underline;
+}   
